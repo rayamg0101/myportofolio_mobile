@@ -11,6 +11,14 @@ class MyHomePage extends StatelessWidget {
   final List<ItemHomepage> items = [
     ItemHomepage("View Projects", Icons.folder),
     ItemHomepage("Add Project", Icons.add_circle),
+    ItemHomepage("View Achievements", Icons.folder),
+    ItemHomepage("Add Achievement", Icons.add_circle),
+    ItemHomepage("View Skills", Icons.folder),
+    ItemHomepage("Add Skill", Icons.add_circle),
+    ItemHomepage("View Educations", Icons.folder),
+    ItemHomepage("Add Education", Icons.add_circle),
+    ItemHomepage("View Experiences", Icons.folder),
+    ItemHomepage("Add Experience", Icons.add_circle),
     ItemHomepage("Logout", Icons.logout),
   ];
 
